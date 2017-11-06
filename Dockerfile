@@ -1,3 +1,5 @@
-docker build -t="rethinkdb" .
-docker run -i -t rethinkdb
-docker run -d rethinkdb
+FROM ubuntu:latest
+RUN echo "hello" > ~/article.txt \
+# A comment line
+#     && echo "world" >> ~/article.txt
+#
